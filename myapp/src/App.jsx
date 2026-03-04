@@ -1,14 +1,15 @@
-import Drink from './Drink.jsx';
-import MyComponent from './MyComponent.jsx';
+import Counter from "./Counter";
+import Counter2 from "./Counter2";
+import Counter3 from "./Counter3"; 
+import Counter4 from "./Counter4";
 
 export default function App() {
-    return (
-        <>
-            <MyComponent firstName='영희'/>
-            {/* <Drink drink='coffee'/>
-            <Hello drink='coffee'/>
-            <Hello drink='tea'/>
-            <Hello drink='juice'/> */}
-        </>
-    )
+
+  return (
+    <> 
+      <Counter4 />
+      <Counter3 />
+      <Counter2 />
+      <Counter />
+    </>);
 }

@@ -1,8 +1,13 @@
-export default function Drink({ drink }) {
+import HeaderText from "./HeaderText"
 
-    return (
-        <div >
-            <h1>Would you like to drink some {drink} ?</h1>
-        </div>
-    )
+export default function Drink({drink}) {
+
+  return (
+    <>
+      <h1>
+        Would you like to drink some {drink} ?
+        <HeaderText text='추가텍스트' />
+      </h1>
+    </>
+  )
 }
