@@ -20,7 +20,7 @@ function App() {
     <Container>
       <AppBar position="static" color="primary">
         <Toolbar>
-          <Typography variant="h6" component="div">
+          <Typography variant="h6" component="div"sx={{ flexGrow: 1, textAlign: 'center' }}>
             Shopping List
           </Typography>
         </Toolbar>
