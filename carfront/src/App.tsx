@@ -3,11 +3,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Carlist from "./components/Carlist";
 
 const queryClient = new QueryClient();
+
 function App() {
 
   return (
     <Container maxWidth='xl'>
-    <CssBaseline/>
+    <CssBaseline />
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6">
@@ -19,7 +20,6 @@ function App() {
         <Carlist />
       </QueryClientProvider>
     </Container>
-    
   )
 }
 
